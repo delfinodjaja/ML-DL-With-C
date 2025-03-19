@@ -181,7 +181,7 @@ double* minmaxscaler(double arr[],int size,double n_min,double n_max){
 	    302.5, 304.2, 306.0, 307.5, 309.3, 310.8, 312.5, 314.2, 316.0, 317.5,
 	    319.3, 320.8, 322.5, 324.2, 326.0, 327.5, 329.3, 330.8, 332.5, 334.2
 	};
- 	int len=sizeof(y_test)/sizeof(y_test[0]);
+ 	int len=sizeof(y_train)/sizeof(y_train[0]);
  	double *scaled_x=minmaxscaler(x_train,len,0,1);
  	double *scaled_y=minmaxscaler(y_train,len,0,1);
  	double *scaled_x_test=minmaxscaler(x_test,len,0,1);
