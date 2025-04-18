@@ -16,7 +16,7 @@ The goal is to deeply understand ML/DL algorithms and improve low-level programm
 ## Content
 - LINREG = Linear Regression
 - LOGREG = Logistic Regression
-- LINREGV2 = Multiple Linear regression
+- LINREG2 = Multiple Linear regression
 ---
 
 Feel free to give any feedback or suggestions for improvement.
