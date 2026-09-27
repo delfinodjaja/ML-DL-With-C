@@ -1,4 +1,4 @@
-# ML/DL From Scratch in Pure C
+# ML/DL From Scratch in C / C++
 
 This project is a personal exploration into **machine learning and deep learning** implemented purely in **C**, with **no external libraries**.  
 The goal is to deeply understand ML/DL algorithms and improve low-level programming skills.
