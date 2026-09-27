@@ -89,7 +89,7 @@ void SGD(int in, int out, double y[], double pred[], double x[], double m[], dou
 		for(k=0;k<in;k++){
 			grad_m[j*in+k]=-2*x[i*in+k]*(y[i*out+j]-pred[i*out+j]);
 		}
-		grad_b[j] = -2 * (y[i * out + j] - pred[j]);
+		grad_b[j] = -2 * (y[i * out + j] - pred[i * out + j]);
 	}
 }
 void getminmax(double arr[],int size, double *max,double*min){
